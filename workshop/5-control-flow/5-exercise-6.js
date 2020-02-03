@@ -9,3 +9,11 @@
 // between 0 and 5000
 //
 // ANSWER: the number you should see in the console is 3127500
+ mySum = 0 ;
+for (i = 0; i<=5000; i++){
+    if (i%4===0){
+       mySum = mySum + i;
+       console.log(mySum)
+    }
+
+}

@@ -13,3 +13,9 @@
 // #####
 // ######
 // #######
+
+let abc = ''
+for (i=0; i<7; i++){
+    abc = abc +'#'
+    console.log(abc);
+}
