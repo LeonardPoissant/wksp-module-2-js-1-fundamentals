@@ -18,12 +18,14 @@
 // #_#_#_#_
 // _#_#_#_#
 
- t = '';
- l = '';
- t+l = v;
-
-for(i=0; i<=8; i++){
-    t= '#'+i;
-    l= '_'+i;
-    console.log(v);
+ let t = '#_#_#_#_';
+ let l = '_#_#_#_#';
+for(i=0; i<8; i++){
+    if(i===8){
+    console.log(l)
+    }
+    else if (i%2===0){
+        console.log(t)
+    }
+    else{console.log(l)}  
 }
